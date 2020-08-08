@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <div class="showWord">
+            <p>没有一个冬天不可逾越，</p>
+            <p> 没有一个春天不会到来！</p>
+        </div>
+        <h1>新冠肺炎疫情数据</h1>
+        <div class="showTime"></div>
+    </div>
+    <!-- 主体部分 -->
+    <div class="mianbox">
+        <!-- 左边 -->
+        <div class="column">
+            <div class="panel" id="panel1">
+                <div class="spanel"></div>
+            </div>
+            <div class="panel" id="panel2">
+                <div class="spanel"></div>
+            </div>
+            <div class="panel" id="panel3">
+                <div class="spanel "></div>
+            </div>
+        </div>
+        <!-- 中间 -->
+        <div class="column">
+            <div class="no">
+                <div class="no-hd">
+                    <div class="le">2020</div>
+                    <div class="rig ">723723</div>
+                </div>
+                <div class="no-hp">
+                    <div class="le">累计确诊人数</div>
+                    <div class="rig">累计死亡人数</div>
+                </div>
+            </div>
+            <!-- 地图部分 -->
+            <div class="map ">
+                <div class="map1 "></div>
+                <div class="map2 "></div>
+                <div class="map3 "></div>
+                <div class="charts" id="charts">
+                    <!-- <ul class="news">
+
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+        <!-- 右边 -->
+        <div class="column ">
+            <div class="panel" id="panel4">
+                <div class="spanel "></div>
+            </div>
+            <div class="panel " id="last">
+                <div class="spanel "></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js "></script>
+    <script src="./js/template-web.js"></script>
+    <script src="./js/flexible.js "></script>
+    <script src="./js/echarts.min.js "></script>
+    <script src="./js/china.js"></script>
+    <script src="./js/index.js "></script>
+    <!-- <script id="temp-li" type="text/html">
+        模板引擎 链接charts播报新闻，地图，新闻选一个
+        如需使用需打开 id=charts里面的ul和对应的js文件
+        {{each data}}
+        <li>
+            <h3>{{$value.title}}</h3>
+            <p>{{$value.summary}}</p>
+            <p>{{'---'+$value.infoSource+' ' +$value.pubDateStr}}</p>
+        </li>
+        {{/each}}
+    </script> -->
+    <!-- <script src="./js/charts.js"></script> -->
+
+
+</body>
+
+</html>
